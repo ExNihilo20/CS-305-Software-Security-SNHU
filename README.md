@@ -24,4 +24,13 @@ To increase security, we decided upon multi-layered security measures. This incl
 In the future, we would automate many of the checks against the code base, even beyond the scanning tools that we were able to integrate into the maven project build.
 
 ### Ensuring Functionality and Security
-After refactoring the code to handle vulnerabilities, we conducted thorough testing to make sure the application still functioned as needed, while also accounting for the high security expectations the company needed to operate. 
+After refactoring the code to handle vulnerabilities, we conducted thorough testing to make sure the application still functioned as needed, while also accounting for the high security expectations the company needed to operate. A combination of manual and automatic processes were used to meet these demands.
+
+### Resources and Tools
+we chose industry-standard tools like OWASP - which is recommended by NIST for security scanning. This tool offered static analysis of the code base, which got us off to a great start with vulnerability identification. OWASP was integrated with Maven - a package manager and build tool for enterprise JVM-based applications. The Eclipse IDE was used for developing code changes to justify recommendations from Global Rain to Artemis Financial.
+
+### Future Employability
+This assignment showcases my ability to provide static automatic and manual coding analysis with various industry tools. Future employers who view this project will see that the I have basic familiarity with Spring REST API, OWASP static scanning, Eclipse IDE, Java backend programming, and security standards provided by Oracle, NIST, and more.
+
+## Conclusion
+The analysis performed for this project shows a small part of the work that was completed over the past 8-weeks. This project is the culmination of my work to understand basic software security standards for Java enterprise software development. My hope is that I can build upon this work to provide services that customers and businesses can use and value.
